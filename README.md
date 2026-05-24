@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)
+[![YouTube Playlist](https://img.shields.io/badge/YouTube-Playlist-red?logo=youtube)](https://www.youtube.com/playlist?list=PL9aP5Ogcql5QxCRXeGOB0X8seldSoBQub)
 
 🇪🇸 **Español** | [🇬🇧 English](README.en.md)
 
@@ -16,15 +17,18 @@ Curso introductorio (~10 horas) que cubre desde fundamentos de Python hasta infe
 
 Diseñado para profesionales de salud pública, epidemiólogos y analistas de sistemas de información en salud.
 
+📺 **Videos del curso:** [Lista de reproducción en YouTube](https://www.youtube.com/playlist?list=PL9aP5Ogcql5QxCRXeGOB0X8seldSoBQub)
+El notebook original usado en los videos está en [`Módulo 4, 5, 6 y 7 - Primeros pasos con Pandas.ipynb`](Módulo%204%2C%205%2C%206%20y%207%20-%20Primeros%20pasos%20con%20Pandas.ipynb).
+
 ## Módulos
 
 | # | Módulo | Notebook | Colab |
 |---|--------|----------|-------|
-| 1 | Fundamentos de Python | [`01_python_basico.ipynb`](notebooks/01_python_basico.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/Python_course_PAHO/blob/main/notebooks/01_python_basico.ipynb) |
-| 2 | Procesamiento con Pandas | [`02_pandas.ipynb`](notebooks/02_pandas.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/Python_course_PAHO/blob/main/notebooks/02_pandas.ipynb) |
-| 3 | Visualización de datos | [`03_visualizacion.ipynb`](notebooks/03_visualizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/Python_course_PAHO/blob/main/notebooks/03_visualizacion.ipynb) |
-| 4 | Inferencia estadística | [`04_inferencia.ipynb`](notebooks/04_inferencia.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/Python_course_PAHO/blob/main/notebooks/04_inferencia.ipynb) |
-| 5 | Automatización de procesos | [`05_automatizacion.ipynb`](notebooks/05_automatizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/Python_course_PAHO/blob/main/notebooks/05_automatizacion.ipynb) |
+| 1 | Fundamentos de Python | [`01_python_basico.ipynb`](notebooks/01_python_basico.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/python-salud-publica-paho/blob/main/notebooks/01_python_basico.ipynb) |
+| 2 | Procesamiento con Pandas | [`02_pandas.ipynb`](notebooks/02_pandas.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/python-salud-publica-paho/blob/main/notebooks/02_pandas.ipynb) |
+| 3 | Visualización de datos | [`03_visualizacion.ipynb`](notebooks/03_visualizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/python-salud-publica-paho/blob/main/notebooks/03_visualizacion.ipynb) |
+| 4 | Inferencia estadística | [`04_inferencia.ipynb`](notebooks/04_inferencia.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/python-salud-publica-paho/blob/main/notebooks/04_inferencia.ipynb) |
+| 5 | Automatización de procesos | [`05_automatizacion.ipynb`](notebooks/05_automatizacion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alcastaro/python-salud-publica-paho/blob/main/notebooks/05_automatizacion.ipynb) |
 
 ## Requisitos
 
@@ -34,7 +38,7 @@ Diseñado para profesionales de salud pública, epidemiólogos y analistas de si
 ## Instalación
 
 ```bash
-git clone https://github.com/alcastaro/Python_course_PAHO.git
+git clone https://github.com/alcastaro/python-salud-publica-paho.git
 cd Python_course_PAHO
 
 python -m venv .venv
@@ -76,7 +80,7 @@ Ver [`data/README.md`](data/README.md) para fuentes y licencia de los datos.
   author       = {Castillo Aroca, Alberto},
   title        = {Curso de Python para Análisis de Datos en Salud Pública (PAHO)},
   year         = {2021},
-  howpublished = {\url{https://github.com/alcastaro/Python_course_PAHO}},
+  howpublished = {\url{https://github.com/alcastaro/python-salud-publica-paho}},
   note         = {Actualizado 2026}
 }
 ```
