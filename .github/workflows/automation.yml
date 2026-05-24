@@ -1,0 +1,53 @@
+name: Automation example
+
+# Demuestra cómo correr el pipeline del Módulo 5 en GitHub Actions.
+# Default: solo manual / push a main. Para activar el cron, descomentar el bloque
+# 'schedule:' (recordar que GitHub Actions usa UTC).
+
+on:
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: "Top-N países a incluir en el resumen"
+        required: false
+        default: "10"
+
+  # schedule:
+  #   - cron: "0 7 * * 1"   # Lunes 07:00 UTC
+
+permissions:
+  contents: write   # necesario solo si se commitea el resultado
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: |
+          python -m paho_course.automation_example --top ${{ github.event.inputs.top_n || 10 }} -v
+        env:
+          PYTHONPATH: src
+
+      - name: Upload result as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: covid-summary-${{ github.run_number }}
+          path: data/processed/
+
+      # Para auto-commitear el resultado, descomentar:
+      # - name: Commit results
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git add data/processed/
+      #     git diff --quiet --cached || git commit -m "chore: actualizar resumen COVID"
+      #     git push

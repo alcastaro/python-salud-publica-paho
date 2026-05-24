@@ -1,0 +1,55 @@
+# Data
+data/*.csv
+data/*.xlsx
+data/*.zip
+data/raw/
+data/processed/
+!data/sample/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenv
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Notebook outputs (stripped via pre-commit, kept for review of source ipynb)
+# Comment line below if you want to commit outputs
+# *.nbconvert.ipynb

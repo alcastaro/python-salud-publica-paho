@@ -1,0 +1,21 @@
+# Core data stack
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+
+# Statistical inference
+scipy>=1.12
+statsmodels>=0.14
+
+# Notebook runtime
+jupyter>=1.0
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Data loaders (Excel + HTTP)
+openpyxl>=3.1
+requests>=2.31
