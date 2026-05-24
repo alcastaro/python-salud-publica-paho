@@ -1,6 +1,6 @@
 # Curso de Python para Análisis de Datos en Salud Pública
 
-> Material original dictado en 2021 para la **Organización Panamericana de la Salud (OPS/PAHO)**, actualizado a APIs modernas en 2026.
+> Material original dictado en octubre de 2022 para la **Organización Panamericana de la Salud (OPS/PAHO)**, actualizado a APIs modernas en 2026.
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA%204.0-lightgrey.svg)](LICENSE)
@@ -63,7 +63,7 @@ O usar **Google Colab** con los badges de la tabla arriba (no requiere instalaci
 │   └── download.py    Script de descarga
 ├── src/paho_course/   Funciones reutilizables y ejemplos automatización
 ├── docs/              Recursos pedagógicos
-├── legacy/            Notebook original 2021 (preservado)
+├── legacy/            Notebook original 2022 (preservado)
 └── .github/workflows/ CI
 ```
 
@@ -76,10 +76,10 @@ Ver [`data/README.md`](data/README.md) para fuentes y licencia de los datos.
 ## Cómo citar
 
 ```bibtex
-@misc{castillo2021pythoncoursepaho,
+@misc{castillo2022pythoncoursepaho,
   author       = {Castillo Aroca, Alberto},
   title        = {Curso de Python para Análisis de Datos en Salud Pública (PAHO)},
-  year         = {2021},
+  year         = {2022},
   howpublished = {\url{https://github.com/alcastaro/python-salud-publica-paho}},
   note         = {Actualizado 2026}
 }
@@ -100,4 +100,4 @@ PRs bienvenidos. Antes de abrir uno:
 
 **Alberto Castillo Aroca** — [@alcastaro](https://github.com/alcastaro)
 
-Material desarrollado originalmente para la cooperación técnica OPS/PAHO en sistemas de información en salud, 2021.
+Material desarrollado originalmente para la cooperación técnica OPS/PAHO en sistemas de información en salud, octubre 2022.

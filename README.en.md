@@ -1,6 +1,6 @@
 # Python Course for Public Health Data Analysis
 
-> Material originally taught in 2021 for the **Pan American Health Organization (PAHO/WHO)**, updated to modern APIs in 2026.
+> Material originally taught in October 2022 for the **Pan American Health Organization (PAHO/WHO)**, updated to modern APIs in 2026.
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Content-CC--BY--SA%204.0-lightgrey.svg)](LICENSE)
@@ -13,7 +13,7 @@
 
 ## About
 
-~10-hour introductory course covering Python fundamentals through statistical inference and automation, using real Ecuador 2021 hospital-discharge data as the working case.
+~10-hour introductory course covering Python fundamentals through statistical inference and automation, using real Ecuador 2021 hospital-discharge data as the working case study.
 
 Designed for public-health professionals, epidemiologists, and health-information-system analysts. Course content is in Spanish (audience: Latin America); code and APIs are language-neutral.
 

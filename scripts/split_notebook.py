@@ -1,4 +1,4 @@
-"""One-off: split monolithic 2021 notebook into 5 module notebooks.
+"""One-off: split monolithic 2022 notebook into 5 module notebooks.
 
 Strips outputs, rewrites Colab Drive paths to portable local paths, modernizes
 deprecated pandas APIs. Run once at restructure; not needed afterwards.
@@ -145,7 +145,7 @@ def build_notebook(template: dict, cells: list[dict], title: str) -> dict:
             "source": (
                 f"# {title}\n\n"
                 "> Curso de Python para Análisis de Datos en Salud Pública — OPS/PAHO\n"
-                "> Material 2021, actualizado 2026.\n"
+                "> Material octubre 2022, actualizado 2026.\n"
                 "> Licencia: código MIT, contenido CC-BY-SA 4.0.\n"
             ),
         }
